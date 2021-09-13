@@ -25,7 +25,7 @@ class Legislature
     end
 
     field :constituency do
-      tds[3].text.tidy
+      tds[3].text.split('(').first.tidy
     end
 
     private

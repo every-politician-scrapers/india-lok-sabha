@@ -4,7 +4,7 @@ let meta = JSON.parse(rawmeta);
 
 module.exports = function () {
   return `SELECT ?item ?name ?group ?party
-         ?district (REPLACE(?districtLabel, "Lok Sabha constituency", "", "i") AS ?constituency)
+         ?district (REPLACE(?districtLabel, " Lok Sabha constituency", "", "i") AS ?constituency)
          ?state ?stateLabel ?gender ?dob ?dobPrecision
          (STRAFTER(STR(?statement), '/statement/') AS ?psid)
     WHERE
