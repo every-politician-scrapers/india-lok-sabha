@@ -3,7 +3,9 @@ let rawmeta = fs.readFileSync('meta.json');
 let meta = JSON.parse(rawmeta);
 
 module.exports = function () {
-  return `SELECT ?item ?name ?group ?party ?district ?constituency ?gender ?dob ?dobPrecision
+  return `SELECT ?item ?name ?group ?party
+         ?district (REPLACE(?districtLabel, "Lok Sabha constituency", "", "i") AS ?constituency)
+         ?state ?stateLabel ?gender ?dob ?dobPrecision
          (STRAFTER(STR(?statement), '/statement/') AS ?psid)
     WHERE
     {
@@ -29,7 +31,7 @@ module.exports = function () {
       SERVICE wikibase:label {
         bd:serviceParam wikibase:language "en".
         ?genderItem rdfs:label ?gender .
-        ?district rdfs:label ?constituency .
+        ?district rdfs:label ?districtLabel .
         ?group rdfs:label ?party .
       }
     }
