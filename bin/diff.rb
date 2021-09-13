@@ -28,7 +28,7 @@ class Comparison < EveryPoliticianScraper::Comparison
 
                      MemberList::Member::Name.new(
                        full:     val.split(',', 2).reverse.join(' ').tidy,
-                       prefixes: %w[Shri Dr. Smt.],
+                       prefixes: %w[Shri Dr. (Dr.) Prof. Smt.],
                        suffixes: %w[General (Retd.)]
                      ).short
                    }] }
