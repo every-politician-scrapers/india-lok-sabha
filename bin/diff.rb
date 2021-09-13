@@ -8,30 +8,45 @@ require 'pry'
 # Standardise data
 class Comparison < EveryPoliticianScraper::Comparison
   REMAP = {
-    'All India Majlis-e-Ittehadul Muslimeen' => 'All India Majlis-E-Ittehadul Muslimeen',
-    'Apna Dal (Sonelal)'                     => 'Apna Dal',
-    'Jammu & Kashmir National Conference'    => 'Jammu and Kashmir National Conference',
-    'Lok Janshakti Party'                    => 'Lok Jan Shakti Party',
-    'Marumalarchi Dravida Munnetra Kazhagam' => 'Dravida Munnetra Kazhagam',
-    'Rastriya Loktantrik Party'              => 'Rashtriya Loktantrik Party',
-    'YSR Congress Party'                     => 'Yuvajana Sramika Rythu Congress Party',
-    'independent politician'                 => 'Independent',
+    party: {
+      'All India Majlis-e-Ittehadul Muslimeen' => 'All India Majlis-E-Ittehadul Muslimeen',
+      'Apna Dal (Sonelal)'                     => 'Apna Dal',
+      'Jammu & Kashmir National Conference'    => 'Jammu and Kashmir National Conference',
+      'Lok Janshakti Party'                    => 'Lok Jan Shakti Party',
+      'Marumalarchi Dravida Munnetra Kazhagam' => 'Dravida Munnetra Kazhagam',
+      'Rastriya Loktantrik Party'              => 'Rashtriya Loktantrik Party',
+      'YSR Congress Party'                     => 'Yuvajana Sramika Rythu Congress Party',
+      'independent politician'                 => 'Independent',
+      "Naga People's Front" => 'Naga Peoples Front',
+      'All Jharkhand Students Union' => 'AJSU Party',
+    },
+    constituency: {
+      'Kadapa' => 'kadapa',
+      'Peddapalli' => 'Peddapalle',
+      'Anantapuramu' => 'Anantapur',
+      'Firozepur' => 'Ferozpur',
+      'Nowgong' => 'Nawgong',
+      'Cooch Behar' => 'Coochbehar',
+      'Sreerampur' => 'Serampore',
+      'Jhalawar' => 'Jhalawar-Baran',
+      'Barrackpore' => 'Barrackpur',
+    }
   }.freeze
 
+  def name_map(val)
+    MemberList::Member::Name.new(
+     full:     val.split(',', 2).reverse.join(' ').tidy,
+     prefixes: %w[Shri Dr. (Dr.) Prof. Smt.],
+     suffixes: %w[General (Retd.)]
+    ).short
+  end
+
   def wikidata_csv_options
-    { converters: [->(val) { REMAP.fetch(val, val) }] }
+    { converters: [lambda { |val, field| field.header == :name ? name_map(val) : (REMAP[field.header] || {}).fetch(val, val) }] }
   end
 
   def external_csv_options
-    { converters: [lambda { |val, field|
-                     return val unless field.header == :name
-
-                     MemberList::Member::Name.new(
-                       full:     val.split(',', 2).reverse.join(' ').tidy,
-                       prefixes: %w[Shri Dr. (Dr.) Prof. Smt.],
-                       suffixes: %w[General (Retd.)]
-                     ).short
-                   }] }
+    { converters: [lambda { |val, field| field.header == :name ? name_map(val) : (REMAP[field.header] || {}).fetch(val, val) }] }
   end
 end
 
