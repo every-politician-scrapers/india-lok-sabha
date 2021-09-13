@@ -1,0 +1,23 @@
+{
+    "jurisdiction": {
+      "name": "India",
+      "id": "Q668"
+    },
+    "legislature": {
+      "id": "Q230003",
+      "member": "Q56051771",
+      "term": {
+        "id": "Q56064191",
+        "start": "2019-05-30"
+      }
+    },
+    "source": {
+        "url":   "http://loksabhaph.nic.in/Members/AlphabeticalList.aspx",
+        "title": "Members : Lok Sabha",
+        "lang":  {
+            "code": "en",
+            "wikidata": "Q1860"
+        }
+    },
+    "agent": "every-politican-scrapers/india-lok-sabha"
+}
