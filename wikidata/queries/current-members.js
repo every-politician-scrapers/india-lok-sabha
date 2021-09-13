@@ -13,6 +13,7 @@ module.exports = function () {
       ?statement ps:P39 wd:${meta.legislature.member} .
       OPTIONAL { ?statement pq:P4100 ?group }
       OPTIONAL { ?statement pq:P768 ?district }
+      FILTER NOT EXISTS { ?statement pq:P582 [] }
 
       OPTIONAL {
         ?statement prov:wasDerivedFrom ?ref .
