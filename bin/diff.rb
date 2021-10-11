@@ -12,6 +12,7 @@ class Comparison < EveryPoliticianScraper::Comparison
       'All India Majlis-e-Ittehadul Muslimeen' => 'All India Majlis-E-Ittehadul Muslimeen',
       'All Jharkhand Students Union'           => 'AJSU Party',
       'Apna Dal (Sonelal)'                     => 'Apna Dal',
+      'Apna Dal (Soneylal)'                    => 'Apna Dal',
       'Jammu & Kashmir National Conference'    => 'Jammu and Kashmir National Conference',
       'Lok Janshakti Party'                    => 'Lok Jan Shakti Party',
       'Marumalarchi Dravida Munnetra Kazhagam' => 'Dravida Munnetra Kazhagam',
