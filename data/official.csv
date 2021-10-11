@@ -219,7 +219,7 @@ seatnum,id,name,party,constituency
 218,5126,"Kuriakose, Adv. Dean",Indian National Congress,Idukki
 219,4879,"Kushawaha, Shri Ravindra",Bharatiya Janata Party,Salempur
 220,5136,"Lal, Shri Akshaibar",Bharatiya Janata Party,Bahraich
-221,4310,"Lal, Shri Pakauri",Apna Dal,Robertsganj
+221,4310,"Lal, Shri Pakauri",Apna Dal (Soneylal),Robertsganj
 222,5527,"Lalrosanga, Shri C.",Mizo National Front,Mizoram
 223,5065,"Lalwani, Shri Shankar",Bharatiya Janata Party,Indore
 224,5096,"Lavu, Shri Sri Krishna Devarayalu",Yuvajana Sramika Rythu Congress Party,Narasaraopet
@@ -307,7 +307,7 @@ seatnum,id,name,party,constituency
 306,3361,"Paswan, Shri Chhedi",Bharatiya Janata Party,Sasaram
 307,4777,"Paswan, Shri Chirag",Lok Jan Shakti Party,Jamui
 308,4303,"Paswan, Shri Kamlesh",Bharatiya Janata Party,Bansgaon
-309,4662,"Patel, Smt. Anupriya",Apna Dal,Mirzapur
+309,4662,"Patel, Smt. Anupriya",Apna Dal (Soneylal),Mirzapur
 310,4411,"Patel, Shri Devji Mansingram",Bharatiya Janata Party,Jalore
 311,5067,"Patel, Shri Gajendra Singh",Bharatiya Janata Party,Khargone
 312,5017,"Patel, Shri Hasmukhbhai Somabhai",Bharatiya Janata Party,Ahmedabad East
@@ -359,7 +359,7 @@ seatnum,id,name,party,constituency
 358,5087,"Rangaiah, Shri Talari",Yuvajana Sramika Rythu Congress Party,Anantapur
 359,4323,"Rao, Shri Nama Nageswara",Telangana Rashtra Samithi,Khammam
 360,5073,"Rao, Shri Soyam Bapu",Bharatiya Janata Party,Adilabad
-361,3904,"Rao, Inderjit Singh",Bharatiya Janata Party,Gurgaon
+361,3904,Rao Inderjit Singh,Bharatiya Janata Party,Gurgaon
 362,4691,"Rathod, Shri Dipsinh Shankarsinh",Bharatiya Janata Party,Sabarkantha
 363,5023,"Rathod, Shri Ratansinh Magansinh",Bharatiya Janata Party,Panchmahal
 364,4782,"Rathore, Col. Rajyavardhan Singh",Bharatiya Janata Party,Jaipur Rural
