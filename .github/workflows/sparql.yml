@@ -3,6 +3,7 @@ name: Get Wikidata info
 on:
   schedule:
     - cron:  '44 1 * * *'
+  workflow_dispatch: {}
 
 jobs:
   scheduled:
@@ -14,7 +15,13 @@ jobs:
       run: |-
         sudo apt-get install jq moreutils
         npm install -g wikibase-cli
-    - name: Run SPARQL queries
+    - name: install qsv
+      run: |-
+        curl -L https://github.com/jqnatividad/qsv/releases/download/0.20.0/qsv-0.20.0-x86_64-unknown-linux-gnu.zip -o /tmp/qsv.zip
+        sudo unzip -j -d /usr/local/bin /tmp/qsv.zip
+    - name: Run SPARQL membership query
+      run: wd sparql wikidata/current-members.js -f csv > /tmp/QS && sed -e 's#http://www.wikidata.org/entity/##g' -e 's/T00:00:00Z//g' /tmp/QS | qsv dedup -s psid | ifne tee wikidata/results/current-members.csv
+    - name: Run other SPARQL queries
       run: for j in wikidata/queries/*.js; do wd sparql $j -f csv > /tmp/QS && sed -e 's#http://www.wikidata.org/entity/##g' /tmp/QS | ifne tee "wikidata/results/$(basename $j ".js").csv" ; done
     - name: Commit and push if results have changed
       run: |-
