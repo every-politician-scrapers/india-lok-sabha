@@ -457,86 +457,87 @@ seatnum,id,name,party,constituency
 456,4758,"Singh, Shri Parvesh Sahib",Bharatiya Janata Party,West Delhi
 457,4326,"Singh, Shri Pashupati Nath",Bharatiya Janata Party,Dhanbad
 458,4459,"Singh, Shri Pradeep Kumar",Bharatiya Janata Party,Araria
-459,451,"Singh, Shri Radha Mohan",Bharatiya Janata Party,Purvi Champaran
-460,4653,"Singh, Shri Raj Kumar",Bharatiya Janata Party,Arrah
-461,4268,"Singh, Shri Raj Nath",Bharatiya Janata Party,Lucknow
-462,5069,"Singh, Shri Rajbahadur",Bharatiya Janata Party,Sagar
-463,4134,"Singh, Shri Rajiv Ranjan Alias Lalan Singh",Janata Dal (United),Munger
-464,4634,"Singh, Shri Rajveer (Raju Bhaiya)",Bharatiya Janata Party,Etah
-465,3987,"Singh, Shri Rakesh",Bharatiya Janata Party,Jabalpur
-466,4429,"Singh, Shri Ravneet",Indian National Congress,Ludhiana
-467,5016,"Singh, Smt. Renuka",Bharatiya Janata Party,Surguja
-468,4600,"Singh, Dr. Satya Pal",Bharatiya Janata Party,Baghpat
-469,4750,"Singh, Shri Sunil Kumar",Bharatiya Janata Party,Chatra
-470,3928,"Singh, Shri Sushil Kumar",Bharatiya Janata Party,Aurangabad
-471,4516,"Singh, Shri Uday Pratap",Bharatiya Janata Party,Hoshangabad
-472,3608,"Singh, Shri Virendra",Bharatiya Janata Party,Ballia
-473,426,"Singh Deo, Smt. Sangeeta Kumari",Bharatiya Janata Party,Bolangir
-474,4768,"Sinha, Shri Jayant",Bharatiya Janata Party,Hazaribagh
-475,4444,"Solanki, Dr. (Prof.) Kirit Premjibhai",Bharatiya Janata Party,Ahmedabad West
-476,5061,"Solanky, Shri Mahendra Singh",Bharatiya Janata Party,Dewas
-477,5014,"Soni, Shri Sunil Kumar",Bharatiya Janata Party,Raipur
-478,4623,"Sonkar, Shri Vinod Kumar",Bharatiya Janata Party,Kaushambi
-479,5114,"Soren, Shri Sunil",Bharatiya Janata Party,Dumka
-480,5091,"Sridhar, Shri Kotagiri",Yuvajana Sramika Rythu Congress Party,Eluru
-481,5111,"Subba, Shri Indra Hang",Sikkim Krantikari Morcha,Sikkim
-482,4086,"Subbarayan, Shri K.",Communist Party of India,Tiruppur
-483,4558,"Sudhakaran, Shri Kumbakudi",Indian National Congress,Kannur
-484,4392,"Sule, Smt. Supriya Sadanand",Nationalist Congress Party,Baramati
-485,5211,"Suman, Dr. Alok Kumar",Janata Dal (United),Gopalganj
-486,4978,"Sundaram, Shri K. Shanmuga",Dravida Munnetra Kazhagam,Pollachi
-487,5220,"Sunil Kumar Pintu, Shri",Janata Dal (United),Sitamarhi
-488,4585,"Suresh, Shri Doddaalahalli Kempegowda",Indian National Congress,Bangalore Rural
-489,5089,"Suresh, Shri Nandigam",Yuvajana Sramika Rythu Congress Party,Bapatla
-490,5182,"Surya, Shri L.S. Tejasvi",Bharatiya Janata Party,Bangalore South
-491,3586,"Swami Maharaj, Dr. Sakshi Ji",Bharatiya Janata Party,Unnao
-492,5200,"Syed Imtiaz Jaleel, Shri",All India Majlis-E-Ittehadul Muslimeen,Aurangabad
-493,4961,"T. Sumathy (A) Thamizhachi Thangapandian, Dr.",Dravida Munnetra Kazhagam,Chennai South
-494,4911,"Tadas, Shri Ramdas Chandrabhanji",Bharatiya Janata Party,Wardha
-495,4552,"Tagore B., Shri Manickam",Indian National Congress,Virudhunagar
-496,4651,"Tamta, Shri Ajay",Bharatiya Janata Party,Almora
-497,5199,"Tatkare, Shri Sunil Dattatray",Nationalist Congress Party,Raigad
-498,4745,"Teli, Shri Rameswar",Bharatiya Janata Party,Dibrugarh
-499,4430,"Tewari, Shri Manish",Indian National Congress,Anandpur Sahib
-500,4249,"Thakur, Shri Anurag Singh",Bharatiya Janata Party,Hamirpur
-501,5059,"Thakur, Sadhvi Pragya Singh",Bharatiya Janata Party,Bhopal
-502,5036,"Thakur, Shri Shantanu",Bharatiya Janata Party,Bangaon
-503,4569,"Tharoor, Dr. Shashi",Indian National Congress,Thiruvananthapuram
-504,4549,"Thirumaavalavan, Dr. Tholkappiyan",Viduthalai Chiruthaigal Katchi,Chidambaram
-505,485,"Thirunavukkarasar, Shri Su.",Indian National Congress,Tiruchirappalli
-506,4606,"Tiwari, Shri Manoj Kumar",Bharatiya Janata Party,North East Delhi
-507,4507,"Tomar, Shri Narendra Singh",Bharatiya Janata Party,Morena
-508,5140,"Tripathi, Dr. Ramapati Ram",Bharatiya Janata Party,Deoria
-509,4982,"Tripura, Shri Rebati",Bharatiya Janata Party,Tripura East
-510,4997,"Tudu, Shri Bishweswar",Bharatiya Janata Party,Mayurbhanj
-511,4734,"Tumane, Shri Krupal Balaji",Shiv Sena,Ramtek
-512,4340,"Udasi, Shri Shivkumar Chanabasappa",Bharatiya Janata Party,Haveri
-513,5057,"Uikey, Shri Durga Das",Bharatiya Janata Party,Betul
-514,4996,"Ulaka, Shri Saptagiri Sankar",Indian National Congress,Koraput
-515,5127,"Unnithan, Shri Rajmohan",Indian National Congress,Kasaragod
-516,5128,"V.K. Sreekandan, Shri",Indian National Congress,Palakkad
-517,4021,"Vallabbhaneni, Shri Balashowry",Yuvajana Sramika Rythu Congress Party,Machilipatnam
-518,5093,"Vanga, Smt. Geetha Viswanath",Yuvajana Sramika Rythu Congress Party,Kakinada
-519,501,"Vasava, Shri Mansukhbhai Dhanjibhai",Bharatiya Janata Party,Bharuch
-520,4757,"Vasava, Shri Prabhubhai Nagarbhai",Bharatiya Janata Party,Bardoli
-521,5120,"Ve., Shri Vaithilingam",Indian National Congress,Puducherry
-522,4977,"Velusamy, Shri P.",Dravida Munnetra Kazhagam,Dindigul
-523,4965,"Venkatesan, Shri S.",Communist Party of India (Marxist),Madurai
-524,3824,"Verma, Shri Bhanu Pratap Singh",Bharatiya Janata Party,Jalaun
-525,510,"Verma, Shri Rajesh",Bharatiya Janata Party,Sitapur
-526,4918,"Verma, Smt. Rekha Arun",Bharatiya Janata Party,Dhaurahra
-527,5164,"Verma, Shri Ram Shiromani",Bahujan Samaj Party,Shrawasti
-528,4663,"Vichare, Shri Rajan Baburao",Shiv Sena,Thane
-529,5533,"Vijayakumar (Alias) Vijay Vasanth , Shri",Indian National Congress,Kanniyakumari
-530,5196,"Vikhepatil, Dr. Sujay Radhakrishna",Bharatiya Janata Party,Ahmednagar
-531,4971,"Vishnu Prasad, Dr. M.K.",Indian National Congress,Arani
-532,5171,"Y, Shri Devendrappa",Bharatiya Janata Party,Bellary
-533,564,"Yadav, Shri Akhilesh",Samajwadi Party,Azamgarh
-534,5217,"Yadav, Shri Ashok Kumar",Bharatiya Janata Party,Madhubani
-535,527,"Yadav, Shri Dinesh Chandra",Janata Dal (United),Madhepura
-536,3830,"Yadav, Shri Giridhari",Janata Dal (United),Banka
-537,5063,"Yadav, Dr. Krishnapal Singh",Bharatiya Janata Party,Guna
-538,530,"Yadav, Shri Mulayam Singh",Samajwadi Party,Mainpuri
-539,3832,"Yadav, Shri Ram Kripal",Bharatiya Janata Party,Pataliputra
-540,5147,"Yadav, Shri Shyam Singh",Bahujan Samaj Party,Jaunpur
-541,4950,"Yepthomi, Shri Tokheho",Nationalist Democratic Progressive Party,Nagaland
+459,4044,"Singh, Smt. Pratibha",Indian National Congress,Mandi
+460,451,"Singh, Shri Radha Mohan",Bharatiya Janata Party,Purvi Champaran
+461,4653,"Singh, Shri Raj Kumar",Bharatiya Janata Party,Arrah
+462,4268,"Singh, Shri Raj Nath",Bharatiya Janata Party,Lucknow
+463,5069,"Singh, Shri Rajbahadur",Bharatiya Janata Party,Sagar
+464,4134,"Singh, Shri Rajiv Ranjan Alias Lalan Singh",Janata Dal (United),Munger
+465,4634,"Singh, Shri Rajveer (Raju Bhaiya)",Bharatiya Janata Party,Etah
+466,3987,"Singh, Shri Rakesh",Bharatiya Janata Party,Jabalpur
+467,4429,"Singh, Shri Ravneet",Indian National Congress,Ludhiana
+468,5016,"Singh, Smt. Renuka",Bharatiya Janata Party,Surguja
+469,4600,"Singh, Dr. Satya Pal",Bharatiya Janata Party,Baghpat
+470,4750,"Singh, Shri Sunil Kumar",Bharatiya Janata Party,Chatra
+471,3928,"Singh, Shri Sushil Kumar",Bharatiya Janata Party,Aurangabad
+472,4516,"Singh, Shri Uday Pratap",Bharatiya Janata Party,Hoshangabad
+473,3608,"Singh, Shri Virendra",Bharatiya Janata Party,Ballia
+474,426,"Singh Deo, Smt. Sangeeta Kumari",Bharatiya Janata Party,Bolangir
+475,4768,"Sinha, Shri Jayant",Bharatiya Janata Party,Hazaribagh
+476,4444,"Solanki, Dr. (Prof.) Kirit Premjibhai",Bharatiya Janata Party,Ahmedabad West
+477,5061,"Solanky, Shri Mahendra Singh",Bharatiya Janata Party,Dewas
+478,5014,"Soni, Shri Sunil Kumar",Bharatiya Janata Party,Raipur
+479,4623,"Sonkar, Shri Vinod Kumar",Bharatiya Janata Party,Kaushambi
+480,5114,"Soren, Shri Sunil",Bharatiya Janata Party,Dumka
+481,5091,"Sridhar, Shri Kotagiri",Yuvajana Sramika Rythu Congress Party,Eluru
+482,5111,"Subba, Shri Indra Hang",Sikkim Krantikari Morcha,Sikkim
+483,4086,"Subbarayan, Shri K.",Communist Party of India,Tiruppur
+484,4558,"Sudhakaran, Shri Kumbakudi",Indian National Congress,Kannur
+485,4392,"Sule, Smt. Supriya Sadanand",Nationalist Congress Party,Baramati
+486,5211,"Suman, Dr. Alok Kumar",Janata Dal (United),Gopalganj
+487,4978,"Sundaram, Shri K. Shanmuga",Dravida Munnetra Kazhagam,Pollachi
+488,5220,"Sunil Kumar Pintu, Shri",Janata Dal (United),Sitamarhi
+489,4585,"Suresh, Shri Doddaalahalli Kempegowda",Indian National Congress,Bangalore Rural
+490,5089,"Suresh, Shri Nandigam",Yuvajana Sramika Rythu Congress Party,Bapatla
+491,5182,"Surya, Shri L.S. Tejasvi",Bharatiya Janata Party,Bangalore South
+492,3586,"Swami Maharaj, Dr. Sakshi Ji",Bharatiya Janata Party,Unnao
+493,5200,"Syed Imtiaz Jaleel, Shri",All India Majlis-E-Ittehadul Muslimeen,Aurangabad
+494,4961,"T. Sumathy (A) Thamizhachi Thangapandian, Dr.",Dravida Munnetra Kazhagam,Chennai South
+495,4911,"Tadas, Shri Ramdas Chandrabhanji",Bharatiya Janata Party,Wardha
+496,4552,"Tagore B., Shri Manickam",Indian National Congress,Virudhunagar
+497,4651,"Tamta, Shri Ajay",Bharatiya Janata Party,Almora
+498,5199,"Tatkare, Shri Sunil Dattatray",Nationalist Congress Party,Raigad
+499,4745,"Teli, Shri Rameswar",Bharatiya Janata Party,Dibrugarh
+500,4430,"Tewari, Shri Manish",Indian National Congress,Anandpur Sahib
+501,4249,"Thakur, Shri Anurag Singh",Bharatiya Janata Party,Hamirpur
+502,5059,"Thakur, Sadhvi Pragya Singh",Bharatiya Janata Party,Bhopal
+503,5036,"Thakur, Shri Shantanu",Bharatiya Janata Party,Bangaon
+504,4569,"Tharoor, Dr. Shashi",Indian National Congress,Thiruvananthapuram
+505,4549,"Thirumaavalavan, Dr. Tholkappiyan",Viduthalai Chiruthaigal Katchi,Chidambaram
+506,485,"Thirunavukkarasar, Shri Su.",Indian National Congress,Tiruchirappalli
+507,4606,"Tiwari, Shri Manoj Kumar",Bharatiya Janata Party,North East Delhi
+508,4507,"Tomar, Shri Narendra Singh",Bharatiya Janata Party,Morena
+509,5140,"Tripathi, Dr. Ramapati Ram",Bharatiya Janata Party,Deoria
+510,4982,"Tripura, Shri Rebati",Bharatiya Janata Party,Tripura East
+511,4997,"Tudu, Shri Bishweswar",Bharatiya Janata Party,Mayurbhanj
+512,4734,"Tumane, Shri Krupal Balaji",Shiv Sena,Ramtek
+513,4340,"Udasi, Shri Shivkumar Chanabasappa",Bharatiya Janata Party,Haveri
+514,5057,"Uikey, Shri Durga Das",Bharatiya Janata Party,Betul
+515,4996,"Ulaka, Shri Saptagiri Sankar",Indian National Congress,Koraput
+516,5127,"Unnithan, Shri Rajmohan",Indian National Congress,Kasaragod
+517,5128,"V.K. Sreekandan, Shri",Indian National Congress,Palakkad
+518,4021,"Vallabbhaneni, Shri Balashowry",Yuvajana Sramika Rythu Congress Party,Machilipatnam
+519,5093,"Vanga, Smt. Geetha Viswanath",Yuvajana Sramika Rythu Congress Party,Kakinada
+520,501,"Vasava, Shri Mansukhbhai Dhanjibhai",Bharatiya Janata Party,Bharuch
+521,4757,"Vasava, Shri Prabhubhai Nagarbhai",Bharatiya Janata Party,Bardoli
+522,5120,"Ve., Shri Vaithilingam",Indian National Congress,Puducherry
+523,4977,"Velusamy, Shri P.",Dravida Munnetra Kazhagam,Dindigul
+524,4965,"Venkatesan, Shri S.",Communist Party of India (Marxist),Madurai
+525,3824,"Verma, Shri Bhanu Pratap Singh",Bharatiya Janata Party,Jalaun
+526,510,"Verma, Shri Rajesh",Bharatiya Janata Party,Sitapur
+527,4918,"Verma, Smt. Rekha Arun",Bharatiya Janata Party,Dhaurahra
+528,5164,"Verma, Shri Ram Shiromani",Bahujan Samaj Party,Shrawasti
+529,4663,"Vichare, Shri Rajan Baburao",Shiv Sena,Thane
+530,5533,"Vijayakumar (Alias) Vijay Vasanth , Shri",Indian National Congress,Kanniyakumari
+531,5196,"Vikhepatil, Dr. Sujay Radhakrishna",Bharatiya Janata Party,Ahmednagar
+532,4971,"Vishnu Prasad, Dr. M.K.",Indian National Congress,Arani
+533,5171,"Y, Shri Devendrappa",Bharatiya Janata Party,Bellary
+534,564,"Yadav, Shri Akhilesh",Samajwadi Party,Azamgarh
+535,5217,"Yadav, Shri Ashok Kumar",Bharatiya Janata Party,Madhubani
+536,527,"Yadav, Shri Dinesh Chandra",Janata Dal (United),Madhepura
+537,3830,"Yadav, Shri Giridhari",Janata Dal (United),Banka
+538,5063,"Yadav, Dr. Krishnapal Singh",Bharatiya Janata Party,Guna
+539,530,"Yadav, Shri Mulayam Singh",Samajwadi Party,Mainpuri
+540,3832,"Yadav, Shri Ram Kripal",Bharatiya Janata Party,Pataliputra
+541,5147,"Yadav, Shri Shyam Singh",Bahujan Samaj Party,Jaunpur
+542,4950,"Yepthomi, Shri Tokheho",Nationalist Democratic Progressive Party,Nagaland
