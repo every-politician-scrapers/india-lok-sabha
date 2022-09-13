@@ -1,7 +1,7 @@
 item,name,group,party,district,constituency,state,stateLabel,gender,dob,dobPrecision,psid
 Q10218,Rahul Gandhi,Q10225,Indian National Congress,Q7975848,Wayanad,,,male,1970-06-19,11,Q10218-233d7ef3-4672-9d46-d7de-87749ee28c38
 Q104057437,Sunil Kumar,Q904827,Janata Dal (United),Q7912496,Valmiki Nagar,,,male,1984-07-07,11,Q104057437-F50FBDAD-D334-459A-AAA5-3F85B665B256
-Q1058,"Modi, Shri Narendra Damodardas",Q10230,Bharatiya Janata Party,Q3633257,Bhagalpur,,,male,1950-09-17,11,Q1058-786E4161-3643-4640-822B-B1FCC992D0AC
+Q1058,"Modi, Shri Narendra Damodardas",Q10230,Bharatiya Janata Party,Q3630705,Varanasi,,,male,1950-09-17,11,Q1058-786E4161-3643-4640-822B-B1FCC992D0AC
 Q106690852,Maddila Gurumoorthy,Q8046035,YSR Congress Party,Q3764514,Tirupati,,,male,1985-06-22,11,Q106690852-61EF85FC-8541-46F6-821A-C3DEC22FEA24
 Q109385229,"Delkar, Smt. Kalaben Mohanbhai",Q59177,Shiv Sena,Q5208111,Dadra and Nagar Haveli,,,female,1971-01-01,9,Q109385229-48C1B015-A239-423C-97F6-4DB93304D5DD
 Q109387155,"Patil, Shri Gyaneshwar",Q10230,Bharatiya Janata Party,Q3634216,Khandwa,,,male,,,Q109387155-C4A495BD-798E-402A-A598-83D812263B5F
@@ -205,6 +205,7 @@ Q3523083,"Maran, Thiru Dayanidhi",Q1255973,Dravida Munnetra Kazhagam,Q3532474,Ch
 Q3532452,"Palanimanickam, Shri S.S.",Q1255973,Dravida Munnetra Kazhagam,Q3534230,Thanjavur,,,male,1950-08-15,11,Q3532452-BCDE8552-C10D-4732-946E-A1812E7FC6A4
 Q3532818,S. Venkatesan,Q234277,Communist Party of India (Marxist),Q3534013,Madurai,,,male,1970-03-16,11,Q3532818-BB0D0804-7782-46F1-85E0-54D67FD91247
 Q3534034,"Baalu, Shri Thalikkottai Rajuthevar",Q1255973,Dravida Munnetra Kazhagam,Q3534197,Sriperumbudur,,,male,1941-06-15,11,Q3534034-58D263D7-3C79-4970-88EB-1EB504EDA849
+Q3595242,Shatrughan Sinha,,,Q4803541,Asansol,,,male,1945-12-09,11,Q3595242-A8DC1E5E-456A-4EE9-866B-E06C8F9DAB0A
 Q3630922,Ravi Shankar Prasad,Q10230,Bharatiya Janata Party,Q7145114,Patna Sahib,,,male,1954-08-30,11,Q3630922-AA622607-1061-453C-9C1F-4D3E657587BE
 Q3634892,Rajiv Pratap Rudy,Q10230,Bharatiya Janata Party,Q7423046,Saran,,,male,1962-03-30,11,Q3634892-C4F28314-392D-434F-BD4C-90D5969B9CEA
 Q3652147,"Rana, Smt Navneet Ravi",Q327591,independent politician,Q3764491,Amravati,,,female,1986-01-03,11,Q3652147-604C17BD-92D4-4C10-8F09-6DADB2CD6FF3
@@ -521,6 +522,7 @@ Q7499405,Shivkumar Chanabasappa Udasi,Q10230,Bharatiya Janata Party,Q4628043,Hav
 Q7499789,"Karandlaje, Km. Shobha",Q10230,Bharatiya Janata Party,Q7877355,Udupi Chikmagalur,,,female,1966-10-23,11,Q7499789-6492AE3D-D48A-4C0F-9EA5-DB68BBE84606
 Q7504125,Shriniwas Dadasaheb Patil,Q1561861,Nationalist Congress Party,Q3763891,Satara,,,male,1941-04-11,11,Q7504125-fe3aa33b-4861-3e9a-c6b3-a89a306893ad
 Q7504173,"Naik, Shri Shripad Yesso",Q10230,Bharatiya Janata Party,Q12416142,North Goa,,,male,1952-10-04,11,Q7504173-16F132BB-9DAC-4D55-A254-FC9DDCD2ADB4
+Q7521202,Simranjit Singh Mann,,,Q7418135,Sangrur,,,male,1945-05-20,11,Q7521202-DF282E54-5777-4015-A022-033CECB5B3A3
 Q7530834,"Adhikari, Shri Sisir Kumar",Q912899,All India Trinamool Congress,Q3351410,Kanthi,,,male,1941-09-19,11,Q7530834-AF0A6E67-D921-48B2-87DE-470D20E81DCE
 Q7546539,"Irani, Smt. Smriti Zubin",Q10230,Bharatiya Janata Party,Q4745924,Amethi,,,female,1976-03-23,11,Q7546539-0BE9616A-1870-4239-873F-072196BD8D3F
 Q7630318,"Thirunavukkarasar, Shri Su.",Q10225,Indian National Congress,Q3532420,Tiruchirappalli,,,male,1949-05-07,11,Q7630318-0BDA7462-10F1-49E3-B1F9-FD5765FA9CE6
